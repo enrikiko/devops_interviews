@@ -1,10 +1,18 @@
 # Devops Interviews questions 
 
 ## Linux
-- What is your favorite linux distribution?
+- What is your favorite linux distribution? Why?
+Ubuntu, for the interface and CentOS for security and stable
 - How to automatize process at the booting?
+/etc/systemd/system/myservice.service
 - How to configure local DNS?
+/etc/systemd/resolved.conf
 - For what are the ports 21, 22, 23, 24, 25
+21: ftp
+22: ssh
+23: tetnet
+24: mail
+25: smtp
 - How to forward ports from port 22
 - How to run command in background
 - How to watch log of application in linux
